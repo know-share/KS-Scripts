@@ -1,0 +1,20 @@
+#!/bin/bash
+
+# usage: [projects...] branch version
+url="https://ks-repository.appspot.com"
+repositoryId="ks-repository"
+length=$#
+version=${@: -1}
+branch=${@: -2:1}
+for var in ${@: 1:length -2}
+do
+	pom=$var/pom.xml
+	file=$var/target/$var-$version.jar
+	gitRepository="https://github.com/know-share/$var.git"
+	git clone --branch=$branch $gitRepository
+	cd $var
+	mvn clean install -DskipTests -P knowshare --settings /home/ubuntu/.m2/settings.xml
+	cd ..
+	mvn deploy:deploy-file -DpomFile=$pom -Dfile=$file -DrepositoryId=$repositoryId -Durl=$url --settings /home/ubuntu/.m2/settings.xml
+	rm -rf $var
+done
