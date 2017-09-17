@@ -14,5 +14,5 @@ then
     cd .. && docker-compose -d up ks_web
   fi
 else
-  echo 'The script needs an argument, it can be backend or frontend'
+  echo 'The script needs an argument, it can be: backend or frontend'
 fi
