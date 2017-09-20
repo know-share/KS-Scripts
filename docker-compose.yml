@@ -3,8 +3,8 @@ mongo:
   container_name: ks_mongodb
   environment:
     MONGO_INITDB_DATABASE: knowprod
-  ports:
-    - 27017:27017
+  expose:
+    - 27017
 
 ks_api:
   build: app/
