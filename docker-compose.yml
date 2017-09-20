@@ -13,6 +13,8 @@ ks_api:
     - mongo
   ports:
     - 8081:8081
+  volumes:
+    - ./app/KS-API/:/app
 
 ks_web:
   image: nginx:1.13
