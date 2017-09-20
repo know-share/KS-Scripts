@@ -21,4 +21,3 @@ COPY settings.xml settings.xml
 
 # Run app
 CMD mvn spring-boot:run --settings=settings.xml
-EXPOSE 8081
