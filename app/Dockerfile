@@ -10,10 +10,8 @@ WORKDIR $APP_PATH
 RUN mkdir knowshare_uploads
 
 # Download stable version from GitHub
-RUN curl -LOk https://github.com/know-share/KS-API/archive/master.zip && \
-	unzip master.zip
-
-WORKDIR KS-API-master
+# RUN curl -LOk https://github.com/know-share/KS-API/archive/master.zip && \
+#	unzip master.zip
 
 # Replace properties with values from production environment
 COPY application.properties src/main/resources/application.properties
