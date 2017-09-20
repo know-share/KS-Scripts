@@ -10,3 +10,5 @@ rm -rf KS-Web-master master.zip
 
 # docker build -t ks_web web/ &&\
 # docker run -d -p 80:80 ks_web
+
+echo 'Build web successful'
