@@ -7,13 +7,13 @@ then
   then
     cd app
     sh build-api.sh
-    cd .. && docker-compose up -d mongo ks_api
+    cd .. && docker-compose up -d mongo ks_api cadvisor
   fi
   if [ $1 == 'frontend' ]
   then
     cd web
     sh build-web.sh
-    cd .. && docker-compose up -d ks_web
+    cd .. && docker-compose up -d ks_web cadvisor
   fi
 else
   echo 'The script needs an argument, it can be: backend or frontend'
