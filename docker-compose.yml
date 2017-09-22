@@ -12,7 +12,7 @@ ks_api:
   links:
     - mongo
   ports:
-    - 8081:8081
+    - 8443:8443
   volumes:
     - ./app/KS-API/:/app/KS-API
 
