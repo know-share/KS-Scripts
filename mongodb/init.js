@@ -746,7 +746,40 @@ db.habilidad.insert([
     { "nombre" : "Educativa.", "tipo" : "PROFESIONALES", "carrera" : DBRef("carrera","Psicología")},
     { "nombre" : "Organizacional.", "tipo" : "PROFESIONALES", "carrera" : DBRef("carrera","Psicología")},
     { "nombre" : "Clínica.", "tipo" : "PROFESIONALES", "carrera" : DBRef("carrera","Psicología")},
-    { "nombre" : "Social.", "tipo" : "PROFESIONALES", "carrera" : DBRef("carrera","Psicología")}
+    { "nombre" : "Social.", "tipo" : "PROFESIONALES", "carrera" : DBRef("carrera","Psicología")},
+
+    { "nombre" : "De interpretación.", "tipo" : "PROFESIONALES", "carrera" : DBRef("carrera","Lic. en filosofía")},
+    { "nombre" : "Filosofía del dolor.", "tipo" : "PROFESIONALES", "carrera" : DBRef("carrera","Lic. en filosofía")},
+    { "nombre" : "Núcleo de investigación en estética", "tipo" : "PROFESIONALES", "carrera" : DBRef("carrera","Lic. en filosofía")},
+    { "nombre" : "Pensamiento crítico y subjetividad", "tipo" : "PROFESIONALES", "carrera" : DBRef("carrera","Lic. en filosofía")},
+    { "nombre" : "Biblioteca virtual del pensamiento colombiano", "tipo" : "PROFESIONALES", "carrera" : DBRef("carrera","Lic. en filosofía")},
+    { "nombre" : "Cosmópolis", "tipo" : "PROFESIONALES", "carrera" : DBRef("carrera","Lic. en filosofía")},
+
+    { "nombre" : "Teología", "tipo" : "PROFESIONALES", "carrera" : DBRef("carrera","Lic. en ciencias religiosas")},
+    { "nombre" : "Ciencias de la religión", "tipo" : "PROFESIONALES", "carrera" : DBRef("carrera","Lic. en ciencias religiosas")},
+    { "nombre" : "Pedagogía", "tipo" : "PROFESIONALES", "carrera" : DBRef("carrera","Lic. en ciencias religiosas")},
+    { "nombre" : "Investigación institucional", "tipo" : "PROFESIONALES", "carrera" : DBRef("carrera","Lic. en ciencias religiosas")},
+
+    { "nombre" : "De interpretación.", "tipo" : "PROFESIONALES", "carrera" : DBRef("carrera","Filosofía")},
+    { "nombre" : "Filosofía del dolor.", "tipo" : "PROFESIONALES", "carrera" : DBRef("carrera","Filosofía")},
+    { "nombre" : "Núcleo de investigación en estética", "tipo" : "PROFESIONALES", "carrera" : DBRef("carrera","Filosofía")},
+    { "nombre" : "Pensamiento crítico y subjetividad", "tipo" : "PROFESIONALES", "carrera" : DBRef("carrera","Filosofía")},
+    { "nombre" : "Biblioteca virtual del pensamiento colombiano", "tipo" : "PROFESIONALES", "carrera" : DBRef("carrera","Filosofía")},
+    { "nombre" : "Cosmópolis", "tipo" : "PROFESIONALES", "carrera" : DBRef("carrera","Filosofía")},
+
+    { "nombre" : "Área bíblica", "tipo" : "PROFESIONALES", "carrera" : DBRef("carrera","Lic. en teología")},
+    { "nombre" : "Área sistemática", "tipo" : "PROFESIONALES", "carrera" : DBRef("carrera","Lic. en teología")},
+    { "nombre" : "Área de acción humana", "tipo" : "PROFESIONALES", "carrera" : DBRef("carrera","Lic. en teología")},
+
+    { "nombre" : "Población y salud", "tipo" : "PROFESIONALES", "carrera" : DBRef("carrera","Medicina")},
+    { "nombre" : "Cerebro, mente y comportamiento", "tipo" : "PROFESIONALES", "carrera" : DBRef("carrera","Medicina")},
+    { "nombre" : "Defensa, inmunidad e infección", "tipo" : "PROFESIONALES", "carrera" : DBRef("carrera","Medicina")},
+    { "nombre" : "Salud maternoinfantil", "tipo" : "PROFESIONALES", "carrera" : DBRef("carrera","Medicina")},
+    { "nombre" : "Cuidado perioperatorio y quirúrgico", "tipo" : "PROFESIONALES", "carrera" : DBRef("carrera","Medicina")},
+
+    { "nombre" : "Área bíblica", "tipo" : "PROFESIONALES", "carrera" : DBRef("carrera","Teología")},
+    { "nombre" : "Área sistemática", "tipo" : "PROFESIONALES", "carrera" : DBRef("carrera","Teología")},
+    { "nombre" : "Área de acción humana", "tipo" : "PROFESIONALES", "carrera" : DBRef("carrera","Teología")}
 ]);
 
 db.cualidad.insert([
