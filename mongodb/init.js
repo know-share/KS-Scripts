@@ -1,3 +1,37 @@
+db.tag.insert([
+    { 'nombre':'Computación gráfica' },
+    { 'nombre':'Visión artificial' },
+    { 'nombre':'Desarrollo multimedial' },
+    { 'nombre':'Realidad virtual' },
+    { 'nombre':'Geometría computacional' },
+    { 'nombre':'Programación web' },
+    { 'nombre':'Base de datos' },
+    { 'nombre':'Minería de datos' },
+    { 'nombre':'Calidad de software' },
+    { 'nombre':'Software libre' },
+    { 'nombre':'Computación móvil' },
+    { 'nombre':'Diseño software' },
+    { 'nombre':'Redes' },
+    { 'nombre':'Ingeniería de requerimientos' },
+    { 'nombre':'Arquitectura de software' },
+    { 'nombre':'Seguridad informática' },
+    { 'nombre':'Detección de intrusos' },
+    { 'nombre':'Negocios en internet' },
+    { 'nombre':'E-business' },
+    { 'nombre':'Sistemas de información' },
+    { 'nombre':'Sistemas de información geográfica' },
+    { 'nombre':'Personalización' },
+    { 'nombre':'Gestión de conocimiento' },
+    { 'nombre':'Arquitectura empresarial' },
+    { 'nombre':'Adaptación de información' },
+    { 'nombre':'Robótica' },
+    { 'nombre':'Sistemas distribuidos' },
+    { 'nombre':'Sistemas operativos' },
+    { 'nombre':'Enseñanza' },
+    { 'nombre':'Emprendimiento' },
+    { 'nombre':'Videojuegos' }
+]);
+
 db.trabajo_grado.insert([
     {
         'nombre': 'OCLING',
