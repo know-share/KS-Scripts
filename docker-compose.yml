@@ -13,6 +13,7 @@ ks_api:
     - mongo
   ports:
     - 443:443
+    -9010:9010
   volumes:
     - ./app/KS-API/:/app/KS-API
 
